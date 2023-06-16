@@ -3,6 +3,30 @@ body {
   background-color: rgb(230, 230, 230);
 }
 
+
+.CurrPromotion {
+  background-color: #f96302;
+  color: white;
+  height: 30px;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.CurrPromotion a {
+  color: white;
+}
+
+.CurrPromotion a:link {
+  text-decoration: none;
+}
+
+.CurrPromotion a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+
 .body-container {
   margin: auto;
   max-width: 1440px;
@@ -66,4 +90,5 @@ body {
   display: flex;
   align-items: center;
   height: 65px;
+
 }

@@ -4,9 +4,9 @@ import { FaChevronRight } from "react-icons/fa";
 const CurrPromotion = () => {
   return (
     <div href="#" className="CurrPromotion">
-      <p className="CurrPromotion-text">
+      <a className="CurrPromotion-text">
         FATHER'S DAY IS JUNE 18TH. Gifts for Dad. Shop Now <FaChevronRight />
-      </p>
+      </a>
     </div>
   );
 };

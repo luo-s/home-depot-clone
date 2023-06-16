@@ -1,0 +1,5 @@
+--home_depot_clone
+
+IF TABLE EXISTS DROP TABLE items;
+IF TABLE EXISTS DROP TABLE category;
+IF TABLE EXISTS DROP TABLE user;

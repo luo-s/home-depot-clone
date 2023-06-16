@@ -13,11 +13,15 @@ body {
   line-height: 30px;
 }
 
-.CurrPromotion-text:link {
+.CurrPromotion a {
+  color: white;
+}
+
+.CurrPromotion a:link {
   text-decoration: none;
 }
 
-.CurrPromotion-text:hover {
+.CurrPromotion a:hover {
   text-decoration: underline;
   cursor: pointer;
 }

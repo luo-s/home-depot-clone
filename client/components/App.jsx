@@ -13,13 +13,17 @@ const App = () => {
   return (
     <main>
       <Header />
-      <Carousel />
-      <Categories />
-      <Grid1 />
-      <ShopByCategory />
-      <Grid2 />
-      <Recommendation />
-      <Grid3 />
+      <div className="body-container">
+        {" "}
+        <Carousel />
+        <Categories />
+        <Grid1 />
+        <ShopByCategory />
+        <Grid2 />
+        <Recommendation />
+        <Grid3 />
+      </div>
+
       <Footer />
     </main>
   );

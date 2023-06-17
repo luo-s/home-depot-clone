@@ -91,3 +91,64 @@ body {
   align-items: center;
   height: 65px;
 }
+
+.grid3-main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: solid lightgrey 2px;
+}
+
+.grid3 {
+  margin-top: -5px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 260px;
+}
+
+.grid3card {
+  margin-top: 10px;
+  width: 285px;
+  border: none;
+  color: black;
+  text-decoration: none;
+}
+
+.grid3card:hover {
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
+
+.grid3icon {
+  margin: auto;
+  width: 120px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid3card-title {
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.grid3card-text {
+  margin-top: -10px;
+  font-family: Helvetica;
+  font-size: 13px;
+}
+
+.grid3link {
+  text-decoration: none;
+  color: black;
+}
+
+.grid3link:hover {
+  text-decoration: underline;
+  color: black;
+}

@@ -91,3 +91,26 @@ body {
   align-items: center;
   height: 65px;
 }
+
+.grid3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  height: 260px;
+}
+
+.grid3card {
+  margin-top: 10px;
+  width: 300px;
+  border: none;
+}
+
+.grid3icon {
+  margin: auto;
+  width: 120px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}

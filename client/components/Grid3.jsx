@@ -6,7 +6,7 @@ import FreeDelivery from "./FreeDelivery.jsx";
 
 const Grid3 = (props) => {
   return (
-    <main>
+    <main className="grid3 row row-cols-1 row-cols-md-4 g-4">
       <MobileApp />
       <ToolRental />
       <Curbside />

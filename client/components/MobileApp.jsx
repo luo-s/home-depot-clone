@@ -1,7 +1,22 @@
 import React, { useEffect, useState } from "react";
 
 const MobileApp = () => {
-  return;
+  return (
+    <div className="col">
+      <div className="card grid3card">
+        <img
+          src="https://dam.thdstatic.com/content/production/6c1g0KyjiIZpfb0kQFd6kQ/0hofRJNbcEoigyhFUvgZqg/Original%20file/app-thd-capabilities.svg"
+          className="grid3icon"
+          alt="..."
+        />
+        <hr />
+        <div className="card-body">
+          <h4 className="card-title">SEARCH BY IMAGE OR VOICE</h4>
+          <p className="card-text">Let our app find it for you</p>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default MobileApp;

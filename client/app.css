@@ -113,6 +113,14 @@ body {
   margin-top: 10px;
   width: 285px;
   border: none;
+  color: black;
+  text-decoration: none;
+}
+
+.grid3card:hover {
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
 }
 
 .grid3icon {
@@ -133,4 +141,14 @@ body {
   margin-top: -10px;
   font-family: Helvetica;
   font-size: 13px;
+}
+
+.grid3link {
+  text-decoration: none;
+  color: black;
+}
+
+.grid3link:hover {
+  text-decoration: underline;
+  color: black;
 }

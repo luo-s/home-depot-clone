@@ -3,6 +3,7 @@ import MobileApp from "./MobileApp.jsx";
 import ToolRental from "./ToolRental.jsx";
 import Curbside from "./Curbside.jsx";
 import FreeDelivery from "./FreeDelivery.jsx";
+// Comment.apply
 
 const Grid3 = (props) => {
   return (

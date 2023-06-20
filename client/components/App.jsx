@@ -8,11 +8,13 @@ import Grid2 from "./Grid2.jsx";
 import Recommendation from "./Recommendation.jsx";
 import Grid3 from "./Grid3.jsx";
 import Footer from "./Footer.jsx";
+import NewNavbar from "./NewNavBar.jsx";
 
 const App = () => {
   return (
     <main>
       <Header />
+      <NewNavbar/>
       <div className="body-container">
         {" "}
         <Carousel />

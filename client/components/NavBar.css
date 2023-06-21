@@ -108,6 +108,7 @@ input {
   text-decoration-color: #f96302;
   text-decoration-thickness: 3px;
   text-underline-offset: 10px;
+  font-weight: 900;
 }
 
 .text-color {

@@ -39,6 +39,9 @@ icon_shop_all_cleaning src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch
 
 
 
+icon_categories_topPicks src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/promotion.svg"
+
+
 
 
 

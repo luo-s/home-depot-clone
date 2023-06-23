@@ -127,5 +127,5 @@ const Categories = () => {
     </>
   );
 };
-
+//what?
 export default Categories;

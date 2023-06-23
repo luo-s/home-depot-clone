@@ -33,7 +33,7 @@ app.get("/category", (req, res) => {
 app.get("/item", (req, res) => {
   sql`SELECT * FROM item`
     .then((rows) => {
-      res.send(rows[0]).status(200);
+      res.send(rows).status(200);
     })
     .catch((err) => {
       console.error("faild to retrive items", err);
@@ -45,7 +45,7 @@ app.get("/item", (req, res) => {
 app.get("/user", (req, res) => {
   sql`SELECT * FROM site_user`
     .then((rows) => {
-      res.send(rows[0]).status(200);
+      res.send(rows).status(200);
     })
     .catch((err) => {
       console.error("failed to retrive users", err);
@@ -57,7 +57,9 @@ app.get("/user", (req, res) => {
 app.get("/item_category/:id", (req, res) => {
   const { id } = req.params;
   console.log(id);
-  sql`SELECT item. *, category.category_name FROM item JOIN category ON item.item_category = category.category_id WHERE item.item_category = ${id}`
+  sql`SELECT item. *, category.category_name 
+  FROM item JOIN category ON item.item_category = category.category_id 
+  WHERE item.item_category = ${id}`
     .then((rows) => {
       res.send(rows[0]).status(200);
     })

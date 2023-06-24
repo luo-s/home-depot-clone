@@ -60,7 +60,7 @@ const NewNavbar = () => {
             </div>
             <div className="delivery">
               <p>
-                Delivery to <strong>67220</strong>
+                Delivering to <strong className="zipcode">67220</strong>
                 <FaAngleDown
                   className="dropdown-icon"
                   style={{ fontSize: "25px" }}

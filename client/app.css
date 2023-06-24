@@ -157,6 +157,7 @@ body {
   color: black;
 }
 
+
 /* NAVBAR CSS */
 
 .navbar {
@@ -791,4 +792,24 @@ text-decoration: none;
   background-color: black;
   color: white;
   border: 2px solid black;
+
+.tabWrapper button {
+  border: 1.1px solid #ccc;
+  color: #3e7697;
+  font-size: 1rem;
+  padding: 0 20px;
+}
+
+.tabWrapper button.clicked {
+  border-bottom: 5px solid #f96302;
+  color: #f96302;
+}
+
+.categories_title {
+  font-family: helvetica-neue-bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0;
+  padding: 20px;
+
 }

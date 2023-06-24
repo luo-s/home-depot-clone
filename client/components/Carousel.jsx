@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 const Carousel = () => {
   return (
     <main>
+      
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">

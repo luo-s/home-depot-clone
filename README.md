@@ -2,7 +2,7 @@
 
 + A Full-Stack React application that clones the Home Depot website. Built the frontend with React.js, the backend with node.js and express.js, and the database with PostgreSQL.
 + Utilized [faker](https://fakerjs.dev/) library to generate dummy data, and fill the database with bulk insertion.
-
++ Worked on frontend React components and style as well as backend Restful APIs with node.js and express.js.
 <p align="left">
   <img
     width="200"
